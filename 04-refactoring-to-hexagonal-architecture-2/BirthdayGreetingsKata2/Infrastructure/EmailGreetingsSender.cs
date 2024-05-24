@@ -1,6 +1,6 @@
 using System.Collections.Generic;
 using System.Net.Mail;
-using BirthdayGreetingsKata2.Domain;
+using BirthdayGreetingsKata2.Business;
 
 namespace BirthdayGreetingsKata2.Infrastructure;
 

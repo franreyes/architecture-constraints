@@ -1,10 +1,10 @@
 using System.Collections.Generic;
 using System.Linq;
 using BirthdayGreetingsKata2.Application;
-using BirthdayGreetingsKata2.Domain;
+using BirthdayGreetingsKata2.Business;
 using NSubstitute;
 using NUnit.Framework;
-using static BirthdayGreetingsKata2.Tests.helpers.OurDateFactory;
+using static BirthdayGreetingsKata2.Tests.Helpers.OurDateFactory;
 
 namespace BirthdayGreetingsKata2.Tests.Application;
 

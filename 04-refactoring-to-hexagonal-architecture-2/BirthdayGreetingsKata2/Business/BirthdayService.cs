@@ -2,7 +2,7 @@ using System;
 using System.Collections.Generic;
 using BirthdayGreetingsKata2.Infrastructure;
 
-namespace BirthdayGreetingsKata2.Domain;
+namespace BirthdayGreetingsKata2.Business;
 
 public class BirthdayService
 {
@@ -13,7 +13,6 @@ public class BirthdayService
     {
         _employeesRepository = employeesRepository;
         _greetingsSender = greetingsSender;
-        var a = new DateTime();
     }
 
     public void SendGreetings(OurDate date)

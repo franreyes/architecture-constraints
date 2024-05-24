@@ -1,8 +1,8 @@
 using System.Collections.Generic;
-using BirthdayGreetingsKata2.Domain;
+using BirthdayGreetingsKata2.Business;
 using BirthdayGreetingsKata2.Infrastructure.Repositories;
 using NUnit.Framework;
-using static BirthdayGreetingsKata2.Tests.helpers.OurDateFactory;
+using static BirthdayGreetingsKata2.Tests.Helpers.OurDateFactory;
 
 
 namespace BirthdayGreetingsKata2.Tests.Infrastructure.Repositories;

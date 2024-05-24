@@ -1,7 +1,7 @@
 using System.Collections.Generic;
 using System.Linq;
 
-namespace BirthdayGreetingsKata2.Domain;
+namespace BirthdayGreetingsKata2.Business;
 
 public class GreetingMessage
 {

@@ -1,7 +1,4 @@
-using System;
 using ArchUnitNET.Domain;
-using ArchUnitNET.Domain;
-using ArchUnitNET.Fluent;
 using ArchUnitNET.Loader;
 using ArchUnitNET.NUnit;
 using static ArchUnitNET.Fluent.ArchRuleDefinition;
@@ -12,7 +9,7 @@ namespace BirthdayGreetingsKata2.Tests.ArchitectureConstraints;
 public class ArchitectureConstraintsTest
 {
     private const string AssemblyName = "BirthdayGreetingsKata2";
-    private const string BusinessLayer = $"{AssemblyName}.Domain";
+    private const string BusinessLayer = $"{AssemblyName}.Business";
     private const string InfrastructureLayer = $"{AssemblyName}.Infrastructure";
     private const string ApplicationLayer = $"{AssemblyName}.App";
 

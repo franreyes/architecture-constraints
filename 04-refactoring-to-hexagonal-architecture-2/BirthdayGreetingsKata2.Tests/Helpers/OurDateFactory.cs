@@ -1,7 +1,7 @@
 using System;
-using BirthdayGreetingsKata2.Domain;
+using BirthdayGreetingsKata2.Business;
 
-namespace BirthdayGreetingsKata2.Tests.helpers;
+namespace BirthdayGreetingsKata2.Tests.Helpers;
 
 public static class OurDateFactory
 {

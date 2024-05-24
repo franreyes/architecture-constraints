@@ -1,7 +1,7 @@
 using NUnit.Framework;
-using static BirthdayGreetingsKata2.Tests.helpers.OurDateFactory;
+using static BirthdayGreetingsKata2.Tests.Helpers.OurDateFactory;
 
-namespace BirthdayGreetingsKata2.Tests.Core;
+namespace BirthdayGreetingsKata2.Tests.Business;
 
 public class OurDateTest
 {

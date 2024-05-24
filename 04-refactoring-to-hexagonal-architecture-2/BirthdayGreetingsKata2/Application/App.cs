@@ -1,5 +1,5 @@
 using System;
-using BirthdayGreetingsKata2.Domain;
+using BirthdayGreetingsKata2.Business;
 using BirthdayGreetingsKata2.Infrastructure;
 using BirthdayGreetingsKata2.Infrastructure.Repositories;
 

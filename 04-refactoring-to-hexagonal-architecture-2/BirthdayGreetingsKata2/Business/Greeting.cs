@@ -1,4 +1,4 @@
-namespace BirthdayGreetingsKata2.Domain;
+namespace BirthdayGreetingsKata2.Business;
 
 public class Greeting
 {
