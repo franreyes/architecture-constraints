@@ -8,7 +8,7 @@ skinparam component {
 
 [Business] <<BirthdayGreetingsKata2.Business.*>>
 [Infrastructure] <<BirthdayGreetingsKata2.Infrastructure.*>>
-[App] <<BirthdayGreetingsKata2.App.*>>
+[App] <<BirthdayGreetingsKata2.Application.*>>
 
 [App] ---> [Business]
 [Infrastructure] --> [Business]
