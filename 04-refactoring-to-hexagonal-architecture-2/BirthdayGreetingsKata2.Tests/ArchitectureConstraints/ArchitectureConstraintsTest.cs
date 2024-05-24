@@ -33,4 +33,11 @@ public class ArchitectureConstraintsTest
             .NotDependOnAny(Types().That().ResideInNamespace(ApplicationLayer, true))
             .Check(Architecture);
     }
+    
+    [Test]
+    public void Should_Satisfy_The_Diagram_Dependencies()
+    {
+        var plantUmlDiagram = "./ArchitectureConstraints/architecture.puml";
+        Types().Should().AdhereToPlantUmlDiagram(plantUmlDiagram).Check(Architecture);
+    }
 }
