@@ -19,7 +19,7 @@ public class ArchitectureConstraintsTest
     
     
     [Test]
-    public void Domain_Not_Depends_Infrastructure()
+    public void Business_Should_Not_Depend_On_Infrastructure()
     {
         Types().That().ResideInNamespace(BusinessLayer).Should()
             .NotDependOnAny(Types().That().ResideInNamespace(InfrastructureLayer))
@@ -27,11 +27,12 @@ public class ArchitectureConstraintsTest
     }
     
     [Test]
-    public void Domain_Not_Depends_Application()
+    public void Business_Should_Not_Depend_On_Application_Layer()
     {
         Types().That().ResideInNamespace(BusinessLayer).Should()
             .NotDependOnAny(Types().That().ResideInNamespace(ApplicationLayer))
             .Check(Architecture);
     }
+    
     
 }
